@@ -1,0 +1,81 @@
+body {
+   margin: 0;
+   font-family: sans-serif;
+}
+.content {
+   margin: 60px auto;
+   width: 400px;
+   padding: 40px;
+   box-shadow: 0 0 20px rgb(194, 192, 192);
+   border-radius: 20px;
+}
+.content:hover {
+   box-shadow: 0 0 23px rgb(194, 192, 192);
+}
+h1 {
+   margin-top: 0;
+   text-align: center;
+   color: deepskyblue;
+}
+table {
+   border-spacing: 0;
+   margin-bottom: 30px;
+   width: 100%;
+   box-shadow: 0 2px 5px #DDD;
+}
+table th,
+table td {
+   border: 1px solid white;
+   padding: 10px;
+   text-align: center;
+   background-color: #EEE;
+}
+th {
+   color: deepskyblue;
+}
+input[type="text"] {
+   width: 68%;
+   outline: none;
+   height: 25px;
+   border: none;
+   border-bottom: 1px solid #CCC;
+   margin-right: 8px;
+   caret-color: deepskyblue;
+}
+input[placeholder="Enter task"] {
+   border-radius: 0;
+   color: deepskyblue;
+}
+input.update {
+   border-radius: 0;
+}
+input {
+   border-radius: 10px;
+}
+input[type="text"]:hover {
+   box-shadow: 0 2px 4px rgb(252, 248, 248);
+}
+input[type="submit"] {
+   width: 26%;
+   height: 30px;
+   background-color: deepskyblue;
+   color: white;
+   border: none;
+   outline: none;
+}
+input[type="submit"]:hover {
+   background-color: rgb(17, 182, 236);
+   box-shadow: 0 0 10px #DDD;
+   cursor: pointer;
+}
+a {
+   color: deepskyblue;
+   text-decoration: none;
+}
+a:hover {
+   color: rgb(2, 174, 231);
+}
+h4 {
+   text-align: center;
+   color: deepskyblue;
+}
